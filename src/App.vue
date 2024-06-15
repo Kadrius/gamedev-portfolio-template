@@ -71,7 +71,7 @@ a:hover, .router-link-exact-active {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.25em;
   font-weight: 100;
   margin-top: -10px;
   margin-bottom: 40px;

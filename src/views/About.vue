@@ -1,20 +1,20 @@
 <template>
-  <div style="margin-bottom: 80px;">
+  <div style="margin-bottom: 40px;">
     <h1>Hello!</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Adrián Blanco Costas</strong>, an XR Developer with 6+ years of experience. I graduated in 2016 in Computer Engineering in the University of A Coruña and specialized in the computing area.<br/>
+        I enjoy math, specially linear algebra and I thrive when using it to solve complex problems. I'm also an enthusiast on computer vision, computer graphics and functional programming.<br/><br/>
+        In general, I love learning new stuff and trying new technologies. I'm always searching for new ways to improve my expertise and to apply my knowledge on XR and videogames development.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
-
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <!-- div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div-->
+      <div style="margin-top: 20px;">I'm currently working as a Senior XR Developer at Xoia Extending Reality. You can reach me at <a href="mailto:adriblanc92@gmail.com">adriblanc92@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img :src="`/img/avatar.png`" alt="Avatar of John" /> 
+      <img :src="`/img/Yo5-CircleMask.png`" alt="Avatar of Kadrius" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -24,8 +24,9 @@
 
 <style scoped>
 .paragraph {
-  max-width: 700px;
+  max-width: 750px;
   margin-bottom: 20px;
+  font-size: 90%;
 }
 
 .photo {
