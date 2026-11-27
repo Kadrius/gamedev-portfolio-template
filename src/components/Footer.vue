@@ -2,16 +2,18 @@
   <div class="footer">
     
     <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Portfolio</a> by schouffy</div>
-    <div class="right">Reach me at <a href="mailto:my@email.com">my@email.com</a> or <router-link to="/contact">through here</router-link></div>
+    <div class="right">Reach me at <a href="mailto:adriblanc92@gmail.com">adriblanc92@gmail.com</a> <!--or <router-link to="/contact">through here</router-link>--></div>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
 
-export default Vue.extend({
+import { defineComponent } from "vue";
+
+export default defineComponent({
   name: "Footer"
 });
+
 </script>
 
 <style scoped lang="less">
@@ -27,9 +29,9 @@ export default Vue.extend({
 }
 
 .left, .right {
-    padding-top: 10px;
-    text-align: center;
-  }
+  padding-top: 10px;
+  text-align: center;
+}
 
 @media only screen and (min-width: 620px){
 

@@ -1,20 +1,19 @@
 <template>
-  <div style="margin-bottom: 80px;">
+  <div style="margin-bottom: 40px;">
     <h1>Hello!</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        <p>I'm <strong>Adrián Blanco Costas</strong>, a <strong>Senior XR Developer at Invelon Technologies</strong> with 8+ years of experience. I build applications that connect immersive experiences with the services behind them, working across Unity and Unreal Engine for XR, Strapi for backends, and Vue for web frontends.</p>
+        <p>My experience goes beyond individual platforms. I have extensive experience integrating Unity into native Android and iOS applications, as well as Flutter apps. I design systems for bespoke projects and take them from initial requirements through development, deployment, and ongoing operation, including infrastructure on AWS using EC2, S3, and Route 53.</p>
+        <p>I'm comfortable in environments where requirements evolve and developers need to take ownership, learn quickly, and solve problems across the stack. I also support tender submissions by contributing to technical proposals, translating project requirements into practical technical approaches.</p>
+        <p>Outside work, I explore new tools and build personal projects, including Roblox experiences. I enjoy understanding how technologies fit together and turning that understanding into products people can use.</p>
+        <p>You can reach me at <a href="mailto:adriblanc92@gmail.com">adriblanc92@gmail.com</a> or <router-link to="/contact">through here</router-link>.</p>
       </div>
-
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
-
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img :src="`/img/Yo5-CircleMask.png`" alt="Avatar of Kadrius" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -24,8 +23,9 @@
 
 <style scoped>
 .paragraph {
-  max-width: 700px;
+  max-width: 750px;
   margin-bottom: 20px;
+  font-size: 90%;
 }
 
 .photo {
